@@ -1,0 +1,241 @@
+/*
+Theme Name: excesstech
+Theme URI: http://intrator.us
+Description: Excessive Technology Standard
+Author: Gabriel Intrator
+Author URI: http://intrator.us
+Version: 1.0
+*/
+
+@font-face {
+	font-family:iabci-7-webfont;
+	src:url(font/iabci-7-webfont.ttf);
+}
+
+body {
+	background-color:#FCFCFC;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:1em;
+	padding-right:1em;
+	max-width:1000px;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#header {
+	overflow:hidden;
+	font-size:100%;
+}
+
+#header img {
+	height:70px;
+	width:70px;
+	background-size:cover;
+	float:left;
+}
+
+#header h1 a {
+	font-weight:normal;
+	color:#0099FF;
+	text-decoration:none;
+	font-family:iabci-7-webfont;
+	font-size:120%;
+	float:right;
+	
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	color:#0099FF;
+	padding-top:.6em;
+}
+
+h1.page-title {
+	font-weight:normal;
+	font-size:190%;
+	margin-bottom:0;
+	color:#0099FF;
+	float:left;
+}
+
+.back-to-parent-link {
+	float:right;
+	margin-top:2.1em;
+	text-decoration:none;
+}
+
+.dash {
+	background-color:#C1C1C1;
+	height:1px;
+	clear:both;
+}
+
+li {
+	list-style-type:circle;
+}
+
+a:link, a:visited {
+	color:#000000;
+}
+
+a:hover {
+	color:#0099FF;
+}
+
+.gallery {
+	border-style:solid;
+	border-width:1px;
+	border-color:#C0C0C0;
+	border-radius:4px;
+	margin-bottom:1em !important;
+	margin-top:1em !important;
+	background-color:#FCFCFC;
+}
+
+.gallery-item {
+	margin: !important;
+}
+
+img.attachment-thumbnail {
+	width:75%;
+	height:auto;
+	border-width:3px !important;
+	border-color:#C0C0C0 !important;
+	border-radius:4px;
+	transition:border-color .15s linear;
+	-o-transition:border-color .15s linear;
+ 	-moz-transition:border-color .15s linear;
+ 	-webkit-transition:border-color .15s linear;
+}
+
+img.attachment-thumbnail:hover {
+	border-color:#212121 !important;
+}
+
+h3 a {
+	color:#0099FF;
+	text-decoration:none;
+}
+	
+.nav-container {
+	background-color:white;
+	max-width:1100px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:4px;
+	border-color:#C0C0C0;
+	color:#0099FF;
+	font-size:110%;
+	overflow:hidden;
+	margin-top:10px;
+}
+
+.nav-container ul  {
+	padding:0;
+	margin:0;
+	padding-top:.5em;
+	padding-bottom:.5em;
+}
+
+@media all and (max-width: 99999px) and (min-width: 700px) {
+	.nav-container ul li {
+		list-style-type:none;
+		display:inline;
+		padding:1em;
+		margin-right:-5px;
+		transition: background-color .15s linear;
+		-o-transition: background-color .15s linear;
+		-moz-transition: background-color .15s linear;
+		-webkit-transition: background-color .15s linear;
+	}
+	
+	.nav-container .current-menu-item a {
+		color:#0099FF;
+	}
+}
+
+@media all and (max-width: 699px) and (min-width: 0px) {
+	.nav-container ul li {
+		font-size:120%;
+		padding:.1em;
+		text-align:center;
+	}
+	
+	.nav-container .current-menu-item, .nav-container .current-menu-item a {
+		background-color:#212121;
+		color:white;
+	}
+	
+	.wpcol-one-quarter,
+	.wpcol-one-half,
+	.wpcol-three-quarter,
+	.wpcol-one-third,
+	.wpcol-two-third,
+	.wpcol-one-fifth,
+	.wpcol-two-fifth,
+	.wpcol-three-fifth,
+	.wpcol-four-fifth
+	 {
+	 	float:none !important;
+	 	width:100% !important;
+	 }
+}
+
+.nav-container ul li a {
+	text-decoration:none;
+	color:#000000;
+	transition:color .15s linear;
+	-o-transition:color .15s linear;
+ 	-moz-transition:color .15s linear;
+ 	-webkit-transition:color .15s linear;
+}
+
+.nav-container ul li:hover {
+	background-color:#212121;
+}
+
+.nav-container ul li:hover a {
+	color:white;
+}
+
+#content-wrapper {
+	background-color:white;
+	max-width:1100px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:4px;
+	border-color:#C0C0C0;
+	margin-top:10px;
+	overflow:hidden;
+	font-size:90%;
+}
+
+.content {
+	padding-left:1em;
+	padding-right:1em;
+}
+
+#footer {
+	background-color:white;
+	max-width:1100px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:4px;
+	border-color:#C0C0C0;
+	margin-top:10px;
+}
+
+#footer {
+	padding-left:1em;
+	padding-right:1em;
+	overflow:hidden;
+	font-size:90%;
+}
+
+#footer p.copyright {
+	float:left;
+}
+
+#footer p.postmetadata {
+	float:right;
+}
